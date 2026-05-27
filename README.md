@@ -1,18 +1,87 @@
-# React + Vite
+# Sistema de Gestión de Herramientas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prototipo de interfaz desarrollado en React para la gestión de herramientas de un depósito. Permite visualizar inventario, registrar retiros y devoluciones, consultar historial de movimientos y monitorear el estado general de las herramientas.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Dashboard con métricas generales.
+- Visualización del inventario de herramientas.
+- Búsqueda y filtrado de herramientas.
+- Registro de retiros y devoluciones.
+- Consulta de usuarios mediante DNI.
+- Historial de movimientos.
+- Diseño responsive orientado a dispositivos móviles.
 
-## React Compiler
+## Tecnologías utilizadas
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- JavaScript
+- CSS
 
-Note: This will impact Vite dev & build performances.
+## Requisitos previos
 
-## Expanding the ESLint configuration
+Antes de comenzar, asegúrese de tener instalado:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Node.js 18 o superior
+- npm 9 o superior
+
+Puede verificar las versiones ejecutando:
+
+```bash
+node -v
+npm -v
+```
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+```
+
+Ingresar a la carpeta del proyecto:
+
+```bash
+cd <NOMBRE_DEL_PROYECTO>
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+## Ejecución en modo desarrollo
+
+Iniciar el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+Luego abrir en el navegador la URL indicada por Vite, normalmente:
+
+```text
+http://localhost:5173
+```
+
+## Estructura general
+
+```text
+src/
+├── App.jsx
+├── main.jsx
+└── assets/
+```
+
+## Notas
+
+- Actualmente la aplicación utiliza datos simulados (mock data).
+- No requiere base de datos ni backend para su ejecución.
+- El objetivo es mostrar el diseño y flujo funcional de la aplicación.
+
+## Licencia
+
+Proyecto desarrollado con fines demostrativos y educativos.
